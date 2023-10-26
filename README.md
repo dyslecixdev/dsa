@@ -5,4 +5,4 @@
 - Practically, O(N^2) could be faster than O(N) given small data sets.
 - 0(1) > O(logN) > O(N) > 0(N \* logN) > O(N^2) > O(2^N) > O(N^!)
 
-_Look inside the data-structures folder for additional notes_
+_Look inside the algorithms or data-structures folders for additional notes_
