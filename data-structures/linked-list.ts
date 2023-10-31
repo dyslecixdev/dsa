@@ -9,8 +9,8 @@ class Node<T> {
 }
 
 class LinkedList<T> {
-  head: Node<T> | null;
-  size: number;
+  private head: Node<T> | null;
+  private size: number;
 
   constructor() {
     this.head = null;
@@ -18,7 +18,7 @@ class LinkedList<T> {
   }
 
   // Gets the length of the linked list.
-  length() {
+  length(): void {
     console.log(this.size);
   }
 
@@ -34,7 +34,7 @@ class LinkedList<T> {
   }
 
   // Adds a node to the end of the linked list.
-  append(data: T) {
+  append(data: T): void {
     const newNode = new Node(data);
 
     if (!this.head) {
@@ -129,7 +129,7 @@ class LinkedList<T> {
   }
 
   // Gets a node at a specific position in the linked list.
-  get(position: number) {
+  get(position: number): void {
     if (position < 0 || position > this.size) {
       console.log(`Choose a position within 0 and ${this.size}`);
       return;
