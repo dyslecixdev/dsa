@@ -24,8 +24,8 @@
 
 # Queue
 
-- Used to store and manage collections of elements (static with arrays, or dynamic with linked lists).
-- Order Preservation: Preserves the order of the elements since it follows a FIFO principle (i.e. the First element IN is also the First element Out).
+- Used to store and manage collections of elements that need to be processed in the order received (static with arrays, or dynamic with linked lists).
+- Order Preservation: Preserves the order of the elements since it follows a FIFO principle (i.e. the First element In is also the First element Out).
 - Limited Access: You do not have access to any other element in a queue except the first and last ones.
 
 ## Queue Methods
@@ -33,5 +33,19 @@
 - size() has O(1).
 - enqueue() has O(1).
 - dequeue() has O(N).
+- peek() has O(1).
+- clear() has O(1).
+
+# Stack
+
+- Used to store and manage collections of elements that require backtracking or undoing operations (static with arrays, or dynamic with linked lists).
+- Order Preservation: Preserves the order of the elements since it follows a LIFO principle (i.e. the Last element In is also the First element Out).
+- Limited Access: You do not have access to any other element in a stack except the first and last ones.
+
+## Stack Methods
+
+- size() has O(1).
+- push() has O(1).
+- pop() has O(1).
 - peek() has O(1).
 - clear() has O(1).
