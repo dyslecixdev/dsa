@@ -5,6 +5,12 @@
 - Ordered: Elements are stored and can be accessed in sequence.
 - Fixed/Static can hold a maximum number of elements, and Dynamic can hold any number of elements (e.g. JavaScript, Python, and C#).
 
+## Array Methods
+
+- push() has O(1).
+- pop() has O(1).
+- Most of the other methods (e.g. slice(), filter(), and map()) have O(N).
+
 # Linked List
 
 - Used to store and manage collections of dynamic elements.
@@ -21,6 +27,21 @@
 - insert has O(N).
 - delete has O(N).
 - get has O(N).
+
+# Array List
+
+- Used to store and manage collections of dynamic elements.
+- Dynamic: Can hold any number of elements because the memory allocation of the array can change.
+- Ordered: Elements are stored and can be accessed in sequence.
+- Efficient Insertions and Deletions: Can insert and delete elements from any position easily.
+
+## Array List Methods
+
+- size() has O(N).
+- resize() has O(N).
+- push() has O(N).
+- pop() has O(N).
+- get() has O(1).
 
 # Queue
 
