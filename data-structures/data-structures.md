@@ -43,6 +43,15 @@
 - pop() has O(N).
 - get() has O(1).
 
+# (Array) Buffer
+
+- Low-level data structured used to represent a contiguous region of memory that can store a fixed amount of data, namely binary data.
+- Contiguous Memory: The buffer is a block of memory where data is stored in a continuous, linear sequence.
+- Fixed Size: The size cannot be changed without creating a new buffer.
+  Binary Data: Normally used with integers, floats, bytes, or any other data that can be represented in a binary format.
+- No Built-In Methods: No methods for high-level operations like arrays or lists.
+- Efficiency: Allows for the direct manipulation of data without the overhead of high-level data structures.
+
 # Queue
 
 - Used to store and manage collections of elements that need to be processed in the order received (static with arrays, or dynamic with linked lists).
