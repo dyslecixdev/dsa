@@ -27,3 +27,8 @@
 2. The second for loop goes through N number of times, and swaps the current element and the element to its right if the current element is larger than the element to its right.
 
 - It has O(N^2) time complexity.
+
+# Recursion
+
+- A function continuously executes itself until it hits a base case that breaks the execution.
+- If you need to visualize it imagine your function (A) executes then calls itself (B) which also then executes then calls itself (C). Inside C the break case activates, so C returns a value which is the value B returns which is the value A returns. Thus, the order is A -> B -> C -> C resolves -> B resolves -> A resolves.
