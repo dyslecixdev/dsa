@@ -28,7 +28,20 @@
 
 - It has O(N^2) time complexity.
 
+## Quick Sort
+
+1. Chooses an arbitrary element to pivot around, and creates two empty arrays. left will hold all the elements less than the pivot, and right will hold all the elements equal to or greater than the pivot.
+2. For loop to put all the elements except the pivot in either the left or right array.
+3. Continuously repeat steps 1 and 2 recursively on the left and right arrays until every pivot is sorted in order.
+
+- It has O(N \* logN) time complexity.
+
 # Recursion
 
 - A function continuously executes itself until it hits a base case that breaks the execution.
 - If you need to visualize it imagine your function (A) executes then calls itself (B) which also then executes then calls itself (C). Inside C the break case activates, so C returns a value which is the value B returns which is the value A returns. Thus, the order is A -> B -> C -> C resolves -> B resolves -> A resolves.
+- The Big O Notation time complexity varies.
+
+# Dynamic Programming
+
+- TODO: Best time to invest in stock
