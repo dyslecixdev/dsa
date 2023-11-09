@@ -18,14 +18,18 @@ class LinkedList<T> {
   }
 
   // Gets the length of the linked list.
-  length(): void {
-    console.log(this.size);
+  length(): number {
+    return this.size;
   }
 
   // Adds a node to the front of the linked list.
   prepend(data: T): void {
     const newNode = new Node(data);
-    newNode.next = this.head;
+
+    if (this.length() !== 0) {
+      newNode.next = this.head;
+    }
+
     this.head = newNode;
 
     this.size++;
@@ -37,7 +41,7 @@ class LinkedList<T> {
   append(data: T): void {
     const newNode = new Node(data);
 
-    if (!this.head) {
+    if (this.length() !== 0) {
       this.head = newNode;
     } else {
       let current = this.head;

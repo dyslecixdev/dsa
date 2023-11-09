@@ -28,6 +28,20 @@
 - delete has O(N).
 - get has O(N).
 
+# Doubly Linked List
+
+- Used to store and manage collections of dynamic elements.
+- Similar to a linked list except you can through each node starting with the head or the tail, has more efficient random access, but consumes slightly more memory due to the additional reference.
+
+## Doubly Linked List Methods
+
+- length() has ???
+- prepend has ???
+- append has ???
+- insert has ???
+- delete has ???
+- get has ???
+
 # Array List
 
 - Used to store and manage collections of dynamic elements.
