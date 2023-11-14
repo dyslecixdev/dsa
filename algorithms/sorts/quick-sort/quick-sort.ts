@@ -15,9 +15,7 @@ function quickSort(arr: number[]): number[] {
     }
   }
 
-  console.log(left, pivot, right);
-
   return [...quickSort(left), pivot, ...quickSort(right)];
 }
 
-console.log(quickSort([3, 6, 8, 10, 1, 2, 1])); // Output: [1, 1, 2, 3, 6, 8, 10]
+console.log(quickSort([3, 6, 8, 10, 1, 2, 1])); // [1, 1, 2, 3, 6, 8, 10]
