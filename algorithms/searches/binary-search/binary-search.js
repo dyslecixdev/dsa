@@ -1,13 +1,13 @@
-function binarySearch(haystack: number[], needle: number): boolean {
+function binarySearch(arr, num) {
   let left = 0;
-  let right = haystack.length - 1;
+  let right = arr.length;
 
   while (left <= right) {
     const middle = Math.floor((left + right) / 2);
 
-    if (haystack[middle] === needle) {
+    if (arr[middle] === num) {
       return true;
-    } else if (haystack[middle] < needle) {
+    } else if (arr[middle] < num) {
       left = middle + 1;
     } else {
       right = middle - 1;
