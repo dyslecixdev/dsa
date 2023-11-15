@@ -19,7 +19,7 @@
 
 - It has O(logN) time complexity.
 
-# Sorts
+# Sorts https://www.sitepoint.com/best-sorting-algorithms/#insertionsort
 
 ## Bubble Sort
 
@@ -35,6 +35,14 @@
 3. Continuously repeat steps 1 and 2 recursively on the left and right arrays until every pivot is sorted in order.
 
 - It has O(N \* logN) time complexity.
+
+## Insertion Sort
+
+1. The for loop goes through N (i.e. array.length) number of times to check if all the elements are sorted.
+2. The while loop checks if the element its at is greater than the current element, and will continue to shift down until that's no longer the case.
+3. Place the current element at the position the while loop stopped at.
+
+- It has O(N^2) time complexity.
 
 # Recursion
 
