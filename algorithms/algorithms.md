@@ -19,7 +19,7 @@
 
 - It has O(logN) time complexity.
 
-# Sorts https://www.sitepoint.com/best-sorting-algorithms/#insertionsort
+# Sorts
 
 ## Bubble Sort
 
@@ -43,6 +43,20 @@
 3. Place the current element at the position the while loop stopped at.
 
 - It has O(N^2) time complexity.
+
+## Merge Sort
+
+## Selection Sort
+
+## Bucket Sort
+
+## Shell Sort
+
+## Radix Sort
+
+## Comb Sort
+
+## Tim Sort
 
 # Recursion
 
