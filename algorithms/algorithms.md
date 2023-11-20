@@ -48,6 +48,11 @@
 
 ## Selection Sort
 
+1. The first for loop goes through N (i.e. array.length) number of times to check if all the elements are sorted.
+2. The second for loop goes through N number of times, and swaps the current element and the element to its right if the current element is smaller than the element to its right.
+
+- It has O(N^2) time complexity.
+
 ## Bucket Sort
 
 ## Shell Sort
