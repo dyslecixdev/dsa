@@ -1,3 +1,48 @@
+# [Coding Patterns](https://www.linkedin.com/feed/update/urn:li:activity:7130183190857613312/)
+
+## Two Pointers
+
+1. Create two pointers: the left pointer starts at the 0 index and the right pointer starts at the array's last index.
+2. Use a while loop that ensures the left pointer is always to the left of the right pointer.
+
+## Island (Matrix Traversal) Pattern
+
+## Fast & Slow Pointers
+
+## Sliding Window
+
+## Merge Intervals
+
+## Cyclic Sort
+
+## In-place Reversal of a Linked List
+
+## Tree Breadth First Search
+
+## Tree Depth First Search
+
+## Two Heaps
+
+## Subsets
+
+## Modified Binary Search
+
+## Bitwise XOR
+
+## Top 'K' Elements
+
+## K-way Merge
+
+## Topological Sort
+
+## Trie
+
+## Backtracking
+
+## Monotonic Stack
+
+## 0/1 Knapsack (Dynamic Programming)
+
 # Searches
 
 ## Linear Search
