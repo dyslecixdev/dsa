@@ -5,9 +5,16 @@
 1. Create two pointers: the left pointer starts at the 0 index and the right pointer starts at the array's last index.
 2. Use a while loop that ensures the left pointer is always to the left of the right pointer.
 
-## Island (Matrix Traversal) Pattern
+## Matrix Traversal
+
+1. Create the rows, which is the number of sub-arrays, and cols, which is the maximum number of elements in the sub-arrays.
+2. Create a for loop that traverses through each row.
+3. Create a for loop that traverses through each column.
 
 ## Fast & Slow Pointers
+
+1. Create two pointers: the slow and fast pointer start at the 0 index.
+2. Use a while loop that moves the slow pointer one index at a time and the fast pointer two indices at a time, and ensures that the fast pointer is pointing at a value.
 
 ## Sliding Window
 
