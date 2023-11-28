@@ -18,6 +18,9 @@
 
 ## Sliding Window
 
+1. Use a for loop that goes through an array.
+2. Show the consecutive elements in the array as a "window" of the whole array.
+
 ## Merge Intervals
 
 ## Cyclic Sort
