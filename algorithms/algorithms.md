@@ -23,6 +23,12 @@
 
 ## Merge Intervals
 
+1. Sorts the sub-arrays by the first element from lowest to highest number.
+2. Instantiate a result that is an array with the first sub-array as an element.
+3. For loop over the sorted sub-arrays.
+4. If the first element of the current sub-array is less than the second element of the previous sub-array, replace the second element of the previous sub-array with the larger second element between the current and previous sub-arrays.
+5. Otherwise, add the current sub-array to the result.
+
 ## Cyclic Sort
 
 ## In-place Reversal of a Linked List
