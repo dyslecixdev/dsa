@@ -24,12 +24,17 @@
 ## Merge Intervals
 
 1. Sorts the sub-arrays by the first element from lowest to highest number.
-2. Instantiate a result that is an array with the first sub-array as an element.
+2. Initialize result which is an array with the first sub-array as an element.
 3. For loop over the sorted sub-arrays.
 4. If the first element of the current sub-array is less than the second element of the previous sub-array, replace the second element of the previous sub-array with the larger second element between the current and previous sub-arrays.
 5. Otherwise, add the current sub-array to the result.
 
 ## Cyclic Sort
+
+1. Initialize i which starts at 0.
+2. Use a while loop that ensures i is less than the array's length.
+3. If the number at i's index is not equal to the index it should be at (e.g. if result[i] is 3, then it should be at the 2nd index), switch it and the number at temp - 1's index.
+4. Otherwise increment i.
 
 ## In-place Reversal of a Linked List
 
