@@ -38,6 +38,14 @@
 
 ## In-place Reversal of a Linked List
 
+1. Initialize current to the linked list's head, and prev and next to null.
+2. Use a while loop to go over every node in the linked list.
+3. Save the reference to the next node in next pointer.
+4. Reverse the direction of the current node's pointer.
+5. Move the prev pointer to the current node.
+6. Move the current pointer to the next node.
+7. After the while loop breaks, move the head to the prev node.
+
 ## Tree Breadth First Search
 
 ## Tree Depth First Search
