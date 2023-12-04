@@ -93,3 +93,17 @@
 - pop() has O(1).
 - peek() has O(1).
 - clear() has O(1).
+
+# Binary Search Tree
+
+- Ordered Structure: BSTs maintain an ordered structure where each node has at most two children, and the left subtree of a node contains only nodes with values less than the node's value, while the right subtree contains nodes with values greater than the node's value. This ordering facilitates efficient searching.
+- Efficient Insertion, Searching, and Deletion: Due to the ordered structure, these methods in a BST has an average time complexity of O(log n), where n is the number of nodes in a balanced tree.
+- In-Order Traversal: BSTs can be easily traversed in sorted order using in-order traversal. This property is useful in scenarios where data needs to be processed or displayed in a sorted order.
+- Space Efficiency: BSTs have relatively low space overhead. Each node only requires storage for the value and references to its left and right children.
+- Dynamic Operations: BSTs are dynamic data structures that support efficient insertion and deletion of elements. This makes them suitable for scenarios where the data set is dynamic and frequently updated.
+
+## Binary Search Tree Methods
+
+- insert() has O(N).
+- search() has O(N).
+- remove() has O(N).
