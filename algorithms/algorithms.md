@@ -48,6 +48,12 @@
 
 ## Tree Breadth First Search
 
+1. Start from the root node.
+2. Explore neighbors at the current level.
+3. Enqueue unvisited neighbors.
+4. Dequeue the current node.
+5. Repeat steps 2 - 4 until the queue is empty.
+
 ## Tree Depth First Search
 
 ## Two Heaps
